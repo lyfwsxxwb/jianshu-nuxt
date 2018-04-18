@@ -15,7 +15,7 @@
     "animate.css": "^3.5.2",
     "axios": "^0.16.2",
     "bootstrap": "4.0.0-beta.2",
-    "bootstrap-vue": "^1.4.1",
+    "bootstrap-vue": "^1.5.1",
     "cross-env": "^5.0.1",
     "express": "^4.15.3",
     "jquery": "^3.3.1",
