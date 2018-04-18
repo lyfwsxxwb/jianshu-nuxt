@@ -78,8 +78,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="148" />
+    <option name="x" value="501" />
+    <option name="y" value="140" />
     <option name="width" value="1400" />
     <option name="height" value="1008" />
   </component>
@@ -96,6 +96,11 @@
             <path>
               <item name="jianshu" type="b2602c69:ProjectViewProjectNode" />
               <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jianshu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jianshu" type="462c0819:PsiDirectoryNode" />
+              <item name=".nuxt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,15 +143,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524014849014</updated>
-      <workItem from="1524014868251" duration="2842000" />
+      <workItem from="1524014868251" duration="3297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2842000" />
+    <option name="totallyTimeSpent" value="3297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="148" width="1400" height="1008" extended-state="0" />
+    <frame x="501" y="140" width="1400" height="1008" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596182" />
       <window_info anchor="bottom" id="TODO" order="6" />
