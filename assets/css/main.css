@@ -24,6 +24,9 @@ body{
 #sign-template{
     height: 100%;
 }
+#default-template{
+    height: 100%;
+}
 ul,ol,dl{
     list-style: none;
     padding: 0;
