@@ -7,15 +7,26 @@ html,body{
     padding: 0;
     border: 0;
     height: 100%;
-
     color: #333;
     font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     line-height: 1.42857;
     background-color: #fff;
 }
-
+body{
+    overflow-x: hidden;
+}
+#__nuxt{
+    height: 100%;
+}
+#__layout{
+    height: 100%;
+}
+#sign-template{
+    height: 100%;
+}
 ul,ol,dl{
     list-style: none;
+    padding: 0;
 }
 input,input:hover,input:active,input:focus{
     outline: none;
