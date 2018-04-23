@@ -312,8 +312,10 @@
         right: 5px;
         color: #969696;
         text-align: center;
-        padding: 0;
         font-size: 15px;
+        
+        padding: 0;
+
     }
     nav .nav-list .search form .search-btn i {
         margin: 0;
@@ -353,6 +355,7 @@
     .fade-leave-active {
         transition: all 0.5s;
     }
+
     .fade-enter,
     .fade-leave-to {
         transform: translateY(-20px);
