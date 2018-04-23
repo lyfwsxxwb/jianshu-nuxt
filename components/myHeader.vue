@@ -147,6 +147,7 @@
         height: 56px;
     }
     .navbar {
+        background: #fff;
         margin-bottom: 20px;
         border-width: 0 0 1px;
         border-color: #f0f0f0;
