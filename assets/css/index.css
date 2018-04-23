@@ -1,0 +1,158 @@
+/*-----------首页布局开始*/
+.index .main{
+    padding-top: 30px;
+    padding-right: 0px;
+}
+.index .aside{
+    padding-top: 30px;
+}
+.index .main .recommend-collection{
+    margin-bottom:20px;
+    vertical-align: middle;
+}
+.index .main .recommend-collection a.collection{
+    display: inline-block;
+    margin: 0 18px 18px 0;
+    border:1px solid #dcdcdc;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    min-height: 34px;
+    overflow: hidden;
+    vertical-align: top;/*把更多热门的margin-top值加上，用top就对了，没有margin-top值，就只能用middle*/
+}
+.index .main .recommend-collection a.collection img{
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    vertical-align: middle;
+}
+.index .main .recommend-collection a.collection span{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    vertical-align: middle;/*垂直居中*/
+    max-width:150px ;/*设置一个最大宽度*/
+    overflow: hidden;/*超出后隐藏*/
+    white-space: nowrap;/*不换行*/
+    text-overflow: ellipsis;/*显示省略号*/
+}
+.index .main .recommend-collection a.more-collection{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #787878;
+}
+.index .main .split-line{
+    border-top: 1px solid #f0f0f0;
+    margin-bottom: 15px;
+    margin-top: -5px;
+}
+.note-list li{
+    position: relative;
+    width: 100%;
+    padding:0 0 17px;
+    margin:0 0 17px;
+    border-bottom:1px solid #f0f0f0;
+}
+.note-list li .wrap-img{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top:50%;/*到底是%还是px*/
+    right:0;
+    margin-top:-60px;
+}
+.note-list li.wrap-img img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.note-list li.have-img>div{
+    padding-right: 160px;
+}
+.note-list .author {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.note-list .author .avatar{
+    display: inline-block;
+    width:32px;
+    height: 32px;
+    margin-right: 5px;
+}
+.note-list .author .avatar img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.avatar img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px slid #ddd;
+}
+.note-list .author .info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.note-list .author .nickname{
+    vertical-align: middle;
+}
+.note-list .author .time{
+    color:#969696;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.note-list .title{
+    margin: -7px 0 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.note-list .title:hover{
+    text-decoration: underline;
+}
+.note-list .abstruct{
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 24px;
+
+}
+.note-list .meta{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.note-list .meta .collection-tag {
+    max-width: 200px;
+    display: inline-block;
+    padding: 0 5px;
+    color:#ea6f5a;
+    border:1px solid #ea6f5a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 3px;
+    transition:all .1s ease-in;
+}
+.note-list .meta .collection-tag:hover{
+    background-color: rgba(236,97,73,.05);
+    color:#ec6149!important;
+    border-color:#ec6149;
+
+
+}
+.note-list .meta a{
+    color: #b4b4b4;
+    transition:.1s ease-in;
+    margin-right: 10px;
+}
+.note-list .meta a:hover{
+    color:#787878;
+}
+.note-list .meta span{
+    color: #b4b4b4;
+}
