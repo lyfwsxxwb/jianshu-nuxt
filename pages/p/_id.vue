@@ -63,10 +63,10 @@
                             <span>关注</span>
                         </a>
                         <nuxt-link class="title" to="/u/123">
-                            雪笨笨
+                            林十一姐
                         </nuxt-link>
                         <i class="fa fa-venus"></i>
-                        <p>写了 1199 字，被 4 人关注，获得了 611 个喜欢</p>
+                        <p>写了 27457 字，被 295 人关注，获得了 596 个喜欢</p>
                     </div>
                 </div>
                 <!--文章底部的喜欢和分享-->
@@ -94,13 +94,14 @@
                         </a>
                     </div>
                 </div>
+                <!--留言分享-->
+                <my-comment></my-comment>
             </div>
-            <!--留言分享-->
-            <my-comment></my-comment>
+
 
         </div>
     </div>
-    </div>
+
 </template>
 
 <script>

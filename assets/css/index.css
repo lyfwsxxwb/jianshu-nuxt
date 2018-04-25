@@ -546,7 +546,6 @@
     vertical-align: middle;
     line-height: 1.7;
 }
-
 .note .post .follow-detail .info>i{
     color: #EA9EcB;
     font-size: 15px;
@@ -572,9 +571,7 @@
 .note .post .meta-bottom .like .like-btn{
     padding: 13px 0 15px 0;
     display: inline-block;
-
     font-size: 0;
-
 }
 .note .post .meta-bottom .like .like-btn:before{
     content: '';
@@ -589,7 +586,6 @@
     background-size: 1000px 50px;
 }
 .note .post .meta-bottom .like .like-btn a{
-    /*display: inline-block;*/
     padding: 18px 30px 18px 55px;
     color:#ea6f5a;
     font-size: 19px;

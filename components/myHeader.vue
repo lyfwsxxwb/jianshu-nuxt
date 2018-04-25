@@ -360,7 +360,7 @@
         opacity: 0;
     }
     @media (max-width: 1440px) {
-        nav .nav-list > li a > i {
+        nav .nav-list > li a  i {
             display: none;
         }
         nav .nav-list .search-btn i {
