@@ -71,12 +71,12 @@
                 </div>
                 <!--文章底部的喜欢和分享-->
                 <div class="meta-bottom">
-                    <div class="like">
+                    <div :class="[isLiked?'liked like':'like']" @click="isLiked=!isLiked" >
                         <div class="like-btn">
-                            <a href="#" class="">喜欢</a>
+                            <a>喜欢</a>
                         </div>
                         <div class="like-num">
-                            <a href="#">50</a>
+                            <a>50</a>
                         </div>
                     </div>
                     <div class="share">
@@ -118,6 +118,7 @@
         },
         data(){
             return{
+                isLiked:false,
 
             }
         },
