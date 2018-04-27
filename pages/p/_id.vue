@@ -80,18 +80,52 @@
                         </div>
                     </div>
                     <div class="share">
-                        <a href="#" class="share-btn">
+                        
+                        <a href="javascript:void(0)" class="share-btn" v-tooltip="'分享到微信'">
                             <i class="fa fa-weixin weixin"></i>
                         </a>
-                        <a href="#" class="share-btn">
+                        
+                        <a href="javascript:void(0)" class="share-btn" v-tooltip="'分享到微博'">
                             <i class="fa fa-weibo weibo"></i>
                         </a>
-                        <a href="#" class="share-btn">
+                        <a href="javascript:void(0)" class="share-btn" v-tooltip="'分享到qq'">
                             <i class="fa fa-qq qq"></i>
                         </a>
-                        <a href="#" class="more-share share-btn">
-                            更多分享
+
+
+                        <a href="javascript:void(0)" class="more-share share-btn">
+                            
+                        
+                        
+                        <v-popover>
+                            <span>更多分享</span>
+                           <template slot="popover">
+                                <ul class="share-more">
+                                        <li>
+                                            <i class="fa fa-star fa-fw" style="color:#eebf13"></i>
+                                            分享到QQ空间
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-twitter fa-fw" style="color:#00aaec"></i>
+                                            分享到Twitter
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-facebook-official fa-fw" style="color:#4460a0"></i>
+                                            分享到Facebook
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-google-plus fa-fw" style="color:#f9402e"></i>
+                                            分享到Google+
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-github fa-fw" style="color:#3f902d"></i>
+                                            分享到豆瓣
+                                        </li>
+                                    </ul>
+                            </template>
+                        </v-popover>
                         </a>
+
                     </div>
                 </div>
                 <!--留言分享-->
@@ -105,26 +139,30 @@
 </template>
 
 <script>
-    import myComment from '~/components/myComment'
-    import myHeader from '~/components/myHeader'
-    export default {
-        head:{
-            title:"简书文章详情页面-创作你的创作",
-            meta:[
-                {charset:'utf-8'},
-                {name:'keywords',content:'文章详情页面'},
-                {name:'description',content:'文章页面'},
-            ]
-        },
-        data(){
-            return{
-                isLiked:false,
+import myComment from "~/components/myComment";
+import myHeader from "~/components/myHeader";
 
-            }
-        },
-        components:{
-            myHeader,
-            myComment
-        }
-    }
+export default {
+  head: {
+    title: "简书文章详情页面-创作你的创作",
+    meta: [
+      { charset: "utf-8" },
+      { name: "keywords", content: "文章详情页面" },
+      { name: "description", content: "文章页面" }
+    ]
+  },
+  data() {
+    return {
+      isLiked: false,
+      isDisabled:true
+    };
+  },
+  components: {
+    myHeader,
+    myComment
+  }
+};
 </script>
+<style>
+
+</style>
